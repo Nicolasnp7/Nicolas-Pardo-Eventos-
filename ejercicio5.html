@@ -1,0 +1,12 @@
+<select id="frutas" onchange="mostrarSeleccion()">
+    <option value="manzana">Manzana</option>
+    <option value="pera">Pera</option>
+    <option value="banana">Banana</option>
+  </select>
+  <script>
+    function mostrarSeleccion() {
+      const seleccion = document.getElementById("frutas").value;
+      alert(`Has seleccionado: ${seleccion}`);
+    }
+  </script>
+  

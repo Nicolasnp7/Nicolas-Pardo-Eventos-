@@ -1,0 +1,9 @@
+<button onmousedown="cambiarColor('blue')" onmouseup="restaurarColor()">Cambia el color</button>
+<script>
+  function cambiarColor(color) {
+    document.body.style.backgroundColor = color;
+  }
+  function restaurarColor() {
+    document.body.style.backgroundColor = "white";
+  }
+</script>
